@@ -1,13 +1,9 @@
 div {
     display: flex;
     flex-direction: column;
-    width:300px;
-    height: 400px;
-    background-color: blue;
     flex-wrap: nowrap;
-    overflow: auto;
-    justify-content: center;
-    align-items: center;
+    width: 400px;
+    height: 600px;
 }
 
 img {
