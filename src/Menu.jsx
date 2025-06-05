@@ -4,13 +4,24 @@ const Menu =()=>{
 
     return (
         <div> 
-            <ul class= "nav">
-                <li class = "nav-item">
-                    <a class="nav-link active" href="/home">
+            <ul className= "nav">
+                <li className = "nav-item">
+                    <a className="nav-link active" href="/home">
                         Home 
                     </a>
                 </li>
+                 <li className = "nav-item">
+                    <a className="nav-link" href="/pokeflex">
+                        Pokeflex
+                    </a>
+                </li>
+                 <li className = "nav-item">
+                    <a className="nav-link" href="/pokegrid">
+                        PokeGrid 
+                    </a>
+                </li>
             </ul>
+
         </div>
     )
 }
